@@ -1993,7 +1993,7 @@ void Test_Misc(void)
     union
     {
         CFE_MSG_Message_t             msg;
-        CFE_MSG_CommandHeader_t       cmd;
+        CFE_EVS_NoArgsCmd_t           cmd;
         CFE_EVS_SetLogModeCmd_t       modecmd;
         CFE_EVS_WriteLogDataFileCmd_t writelogdatacmd;
     } PktBuf;
